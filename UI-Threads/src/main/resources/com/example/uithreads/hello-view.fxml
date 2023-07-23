@@ -4,6 +4,7 @@
 <?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
 <GridPane alignment="CENTER" vgap="10" hgap="10" xmlns:fx="http://javafx.com/fxml"
           fx:controller="com.example.uithreads.HelloController">
 
@@ -14,4 +15,5 @@
     <Button fx:id="byeButton" text="Say Bye" GridPane.rowIndex="1" GridPane.columnIndex="1" onAction="#onButtonClick"/>
     <CheckBox fx:id="ourCheckBox" text="Clear the field after saying hello or bye" GridPane.rowIndex="2"
               GridPane.columnIndex="0" GridPane.columnSpan="2" onAction="#handleChange" />
+    <Label fx:id="ourLabel" text="Nothing has happened" GridPane.rowIndex="3" GridPane.columnIndex="0" />
 </GridPane>
